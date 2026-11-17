@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap');
 /* Elise N. Kifle — classic */
 :root {
   --ink: #2f2f2f;
@@ -106,3 +107,8 @@ h2.section { font-family: var(--sans); text-transform: uppercase; letter-spacing
   .about-body .frame { position: static; }
   .mast-nav { gap: 1.2rem; }
 }
+
+/* ---------- Name: thin, elegant ---------- */
+.name { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 300; letter-spacing: .16em; }
+.masthead .name { font-size: clamp(2.6rem, 5.4vw, 4.2rem); }
+.topbar .name { font-size: 1.6rem; font-weight: 400; }
