@@ -112,3 +112,19 @@ h2.section { font-family: var(--sans); text-transform: uppercase; letter-spacing
 .name { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 300; letter-spacing: .16em; }
 .masthead .name { font-size: clamp(2.6rem, 5.4vw, 4.2rem); }
 .topbar .name { font-size: 1.6rem; font-weight: 400; }
+
+/* ---------- Art split (home) ---------- */
+.home .editorial { padding-bottom: 0; }
+.art-split { display: grid; grid-template-columns: 1fr 1fr; min-height: 82vh; margin-top: 3.5rem; }
+.art-text { display: flex; align-items: center; justify-content: flex-end; padding: 4rem 6vw; }
+.art-text > div { max-width: 480px; width: 100%; }
+.art-text .intro { font-family: var(--display); font-style: italic; font-size: 1.45rem; line-height: 1.5; color: var(--ink); margin: 0 0 2rem; }
+.art-text .roles { margin-top: 0; padding-top: 1.6rem; border-top: 1px solid var(--line); }
+.art-text .actions { margin-top: 2.4rem; }
+.art-photo { position: relative; overflow: hidden; min-height: 60vh; }
+.art-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 40%; }
+@media (max-width: 860px) {
+  .art-split { grid-template-columns: 1fr; margin-top: 2.5rem; }
+  .art-photo { order: -1; min-height: 70vh; }
+  .art-text { justify-content: flex-start; padding: 2.8rem 1.25rem 3.5rem; }
+}
