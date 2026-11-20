@@ -118,7 +118,7 @@ h2.section { font-family: var(--sans); text-transform: uppercase; letter-spacing
 .art-split { display: grid; grid-template-columns: 1fr 1fr; min-height: 82vh; margin-top: 3.5rem; }
 .art-text { display: flex; align-items: center; justify-content: flex-end; padding: 4rem 6vw; }
 .art-text > div { max-width: 480px; width: 100%; }
-.art-text .intro { font-family: var(--display); font-style: italic; font-size: 1.45rem; line-height: 1.5; color: var(--ink); margin: 0 0 2rem; }
+.art-text .intro { font-family: 'Parisienne', cursive; font-style: normal; font-size: 2.1rem; line-height: 1.4; color: var(--ink); margin: 0 0 2rem; }
 .art-text .roles { margin-top: 0; padding-top: 1.6rem; border-top: 1px solid var(--line); }
 .art-text .actions { margin-top: 2.4rem; }
 .art-photo { position: relative; overflow: hidden; min-height: 60vh; }
